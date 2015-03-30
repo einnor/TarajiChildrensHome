@@ -1,0 +1,148 @@
+html
+    {
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover
+    }
+body
+    {
+        padding:50px;
+        font:14px "Lucida Grande",Helvetica,Arial,sans-serif
+    }
+a:hover{
+    text-decoration: none;
+}
+
+    
+p {
+    font: "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+/*Modifications to the nav bar*/
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #1a6e7d;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #b73098;
+}
+.navbar-default .navbar-text {
+  color: #1a6e7d;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #1a6e7d;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #b73098;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #b73098;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #b73098;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1a6e7d;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #1a6e7d;
+}
+.navbar-default .navbar-link {
+  color: #1a6e7d;
+}
+.navbar-default .navbar-link:hover {
+  color: #b73098;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #1a6e7d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #b73098;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #b73098;
+    background-color: #ffffff;
+  }
+}
+
+
+/*Bullet Navigator Skin Begin*/
+
+/* jssor slider bullet navigator skin 05 css */
+                /*
+                .jssorb05 div           (normal)
+                .jssorb05 div:hover     (normal mouseover)
+                .jssorb05 .av           (active)
+                .jssorb05 .av:hover     (active mouseover)
+                .jssorb05 .dn           (mousedown)
+                */
+                .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                    background: url(..images/img/b05.png) no-repeat;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+
+                .jssorb05 div {
+                    background-position: -7px -7px;
+                }
+
+                    .jssorb05 div:hover, .jssorb05 .av:hover {
+                        background-position: -37px -7px;
+                    }
+
+                .jssorb05 .av {
+                    background-position: -67px -7px;
+                }
+
+                .jssorb05 .dn, .jssorb05 .dn:hover {
+                    background-position: -97px -7px;
+                }
+
+.jssora11l, .jssora11r, .jssora11ldn, .jssora11rdn {
+                    position: absolute;
+                    cursor: pointer;
+                    display: block;
+                    background: url(..images/img/a11.png) no-repeat;
+                    overflow: hidden;
+                }
+
+                .jssora11l {
+                    background-position: -11px -41px;
+                }
+
+                .jssora11r {
+                    background-position: -71px -41px;
+                }
+
+                .jssora11l:hover {
+                    background-position: -131px -41px;
+                }
+
+                .jssora11r:hover {
+                    background-position: -191px -41px;
+                }
+
+                .jssora11ldn {
+                    background-position: -251px -41px;
+                }
+
+                .jssora11rdn {
+                    background-position: -311px -41px;
+                }
